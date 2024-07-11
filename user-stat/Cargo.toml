@@ -7,13 +7,19 @@ license = "MIT"
 [dependencies]
 anyhow = { workspace = true }
 chrono = { workspace = true }
+derive_builder = "0.20.0"
+futures = "0.3.30"
+itertools = "0.13.0"
 prost = { workspace = true }
 prost-types = { workspace = true }
-rand = { workspace = true }
+rand = "0.8.5"
 serde = { workspace = true }
+serde_yaml = { workspace = true }
 sqlx = { workspace = true }
 tokio = { workspace = true }
 tonic = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
 
 [dev-dependencies]
 fake = { version = "2.9.2", features = ["derive", "chrono"] }
@@ -21,5 +27,5 @@ nanoid = "0.4.0"
 
 [build-dependencies]
 anyhow = { workspace = true }
-prost-build = { workspace = true }
+proto-builder-trait = "0.6.1"
 tonic-build = { workspace = true }

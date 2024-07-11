@@ -14,20 +14,9 @@ path = "src/client.rs"
 
 [dependencies]
 anyhow = { workspace = true }
-chrono = { workspace = true }
-derive_builder = { workspace = true }
-futures = { workspace = true }
-itertools = { workspace = true }
 prost = { workspace = true }
-prost-build = { workspace = true }
 prost-types = { workspace = true }
-proto-builder-trait = { workspace = true }
-rand = { workspace = true }
-serde = { workspace = true }
-serde_yaml = { workspace = true }
-sqlx = { workspace = true }
 tokio = { workspace = true }
-tokio-stream = { workspace = true }
 tonic = { workspace = true }
 tracing = { workspace = true }
 tracing-subscriber = { workspace = true }

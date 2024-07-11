@@ -17,8 +17,8 @@ message QueryRequest {
 message RawQueryRequest { string query = 1; }
 
 message TimeQuery {
-  google.protobuf.Timestamp before = 1;
-  google.protobuf.Timestamp after = 2;
+  google.protobuf.Timestamp lower = 1;
+  google.protobuf.Timestamp upper = 2;
 }
 
 message IdQuery { repeated uint32 ids = 1; }

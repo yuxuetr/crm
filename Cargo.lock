@@ -315,22 +315,12 @@ name = "crm"
 version = "0.1.0"
 dependencies = [
  "anyhow",
- "chrono",
- "derive_builder",
- "futures",
- "itertools 0.13.0",
  "prost 0.13.1",
  "prost-build 0.13.1",
  "prost-types 0.13.1",
- "proto-builder-trait",
- "rand",
- "serde",
- "serde_yaml",
- "sqlx",
  "tokio",
- "tokio-stream",
  "tonic",
- "tonic-build 0.12.0",
+ "tonic-build",
  "tracing",
  "tracing-subscriber",
 ]
@@ -1472,7 +1462,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a57cad9aa9b228e43eb2e649b95319a4cefb89743d04234470112bb97105cc04"
 dependencies = [
  "prost-build 0.12.6",
- "tonic-build 0.11.0",
+ "tonic-build",
 ]
 
 [[package]]
@@ -2294,19 +2284,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "tonic-build"
-version = "0.12.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "690943cc223adcdd67bb597a2e573ead1b88e999ba37528fe8e6356bf44b29b6"
-dependencies = [
- "prettyplease",
- "proc-macro2",
- "prost-build 0.13.1",
- "quote",
- "syn 2.0.70",
-]
-
-[[package]]
 name = "tower"
 version = "0.4.13"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2486,17 +2463,23 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "chrono",
+ "derive_builder",
  "fake",
+ "futures",
+ "itertools 0.13.0",
  "nanoid",
  "prost 0.13.1",
- "prost-build 0.13.1",
  "prost-types 0.13.1",
+ "proto-builder-trait",
  "rand",
  "serde",
+ "serde_yaml",
  "sqlx",
  "tokio",
  "tonic",
- "tonic-build 0.12.0",
+ "tonic-build",
+ "tracing",
+ "tracing-subscriber",
 ]
 
 [[package]]
