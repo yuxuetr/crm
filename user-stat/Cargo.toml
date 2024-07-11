@@ -18,3 +18,8 @@ tonic = { workspace = true }
 [dev-dependencies]
 fake = { version = "2.9.2", features = ["derive", "chrono"] }
 nanoid = "0.4.0"
+
+[build-dependencies]
+anyhow = { workspace = true }
+prost-build = { workspace = true }
+tonic-build = { workspace = true }
