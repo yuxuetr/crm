@@ -8,7 +8,7 @@ license = "MIT"
 anyhow = { workspace = true }
 chrono = { workspace = true }
 derive_builder = { workspace = true }
-fake = { workspace = true }
+fake = { version = "2.9.2", features = ["derive", "chrono"] }
 futures = { workspace = true }
 itertools = { workspace = true }
 prost = { workspace = true }
