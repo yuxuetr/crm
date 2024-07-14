@@ -1,3 +1,4 @@
+pub mod auth;
 use crate::{
   pb::{WelcomeRequest, WelcomeResponse},
   CrmService,
