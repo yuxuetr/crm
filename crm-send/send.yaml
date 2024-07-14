@@ -1,5 +1,5 @@
 server:
-  port: 50002
+  port: 50003
   db_url: postgres://postgres:postgres@localhost:5432/stats
 auth:
   pk: |
